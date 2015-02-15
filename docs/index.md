@@ -3,30 +3,30 @@ title: ESLint
 layout: doc
 ---
 <!-- Note: No pull requests accepted for this file. See README.md in the root directory for details. -->
-## [About](about/)
+## [关于](about/)
 
-Learn more about ESLint and why it came about and the general philosophy behind it.
+了解更多 ESLint 的动机和理念。
 
-## [Architecture](developer-guide/architecture.html)
+## [架构](developer-guide/architecture.html)
 
-Explains how the code is organized and why it is organized in that way.
+解释代码识别的方式和原因。
 
-## [Rules](rules/)
+## [规则](rules/)
 
-ESLint comes with some default rules to get you started. This is the complete list.
+ESLint 自带了一些默认规则帮助你起步。这里是一份完整的列表。
 
-## [Configuring ESLint](configuring/)
+## [配置](configuring/)
 
-You can turn on or off any rule you like, as well as specifying additional information about your project.
+你可以将其当做项目额外的信息随意开/关。
 
-## [Command Line Interface](command-line-interface/)
+## [命令行接口](command-line-interface/)
 
-ESLint is written to be used primarily for the command line. Learn about its usage here.
+命令行是 ESLint 主要的用武之地。这里介绍了更多命令行的用法。
 
-## [Developer Guide](developer-guide/)
+## [开发指南](developer-guide/)
 
-The developer guide contains information for ESLint developers. If you want to contribute to the project, or even just tinker on your own, this guide explains how to get the source and work with it.
+开发指南包含了 ESLint 开发者的各方面信息。如果你希望为这个项目做贡献，或者只是为自己修修补补，这份指南描述了如何获取源代码，以及如何与其工作。
 
-## [Integrations](integrations/)
+## [集成](integrations/)
 
-ESLint is available for integrating into a variety of build and editing tools.
+ESLint 可以集成到各种构建系统和编辑器当中。

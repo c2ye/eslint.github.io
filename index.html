@@ -8,12 +8,12 @@ layout: default
           <div class="row">
             <div class="col-md-12">
               <h3>欢迎</h3>
-              <p class="lead">ESLint is an open source project originally created by <a href="http://nczonline.net">Nicholas C. Zakas</a> in June 2013. Its goal is to provide a pluggable linting utility for JavaScript.</p>
-              <h3>Latest News</h3>
+              <p class="lead">ESLint 是一个源自 2013 年 6 月 <a href="http://nczonline.net">Nicholas C. Zakas</a> 的开源项目。旨在提供可组装的 JavaScript 检查工具。</p>
+              <h3>相关新闻</h3>
               {% assign post = site.posts.first %}
               <ul>
                 <li class="{{ post.popular }} {{ post.new }}">
-                  <a href="{{ post.url }}">{{ post.title }}</a>
+                  <a href="http://eslint.org{{ post.url }}">{{ post.title }}</a>
                   <span class="date">{{ post.date | date: "%-d %B %Y" }}</span>
                 </li>
               </ul>
@@ -44,27 +44,27 @@ layout: default
 
           <div class="row">
             <div class="col-sm-6 col-md-6">
-              <h2>About</h2>
-              <p>Learn more about ESLint and why it came about and the general philosophy behind it. </p>
-              <p><a class="btn btn-default" href="/docs/about/" role="button">Learn More »</a></p>
+              <h2>关于</h2>
+              <p>了解更多 ESLint 的动机和理念。</p>
+              <p><a class="btn btn-default" href="{{ site.url }}/docs/about/" role="button">了解更多 »</a></p>
             </div>
             <div class="col-sm-6 col-md-6">
-              <h2>Rules</h2>
-              <p>ESLint comes with a bunch of default rules to get you started. This is the complete list. </p>
-              <p><a class="btn btn-default" href="/docs/rules/" role="button">See List »</a></p>
+              <h2>规则</h2>
+              <p>ESLint 自带了一些默认规则帮助你起步。这里是一份完整的列表。</p>
+              <p><a class="btn btn-default" href="{{ site.url }}/docs/rules/" role="button">查看完整列表 »</a></p>
             </div>
           </div>
 
           <div class="row">
             <div class="col-sm-6 col-md-6">
-              <h2>Command Line Interface</h2>
-              <p>ESLint is written to be used primarily on the command line. Learn about its usage here. </p>
-              <p><a class="btn btn-default" href="/docs/command-line-interface/" role="button">CLI Details »</a></p>
+              <h2>命令行接口</h2>
+              <p>命令行是 ESLint 主要的用武之地。这里介绍了更多命令行的用法。</p>
+              <p><a class="btn btn-default" href="{{ site.url }}/docs/command-line-interface/" role="button">命令行接口细节 »</a></p>
             </div>
             <div class="col-sm-6 col-md-6">
-              <h2>Developer Guide</h2>
-              <p>Love ESLint and want to help make it even awesomer? We've got all the details to get you started.</p>
-              <p><a class="btn btn-default" href="/docs/developer-guide/" role="button">Start Hacking »</a></p>
+              <h2>开发指南</h2>
+              <p>喜欢 ESLint 吗？想让它变得更好吗？我们已经为您的加入做好了充分的准备。</p>
+              <p><a class="btn btn-default" href="{{ site.url }}/docs/developer-guide/" role="button">开始 Hack »</a></p>
             </div>
           </div>
 

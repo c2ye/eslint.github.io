@@ -10,8 +10,8 @@
 {% else %}
   <title>{{ site.name }}</title>
 {% endif %}
-  <link rel="stylesheet" href="/styles/main.936b04d2.css"/>
-  <link rel="icon" href="/img/favicon.512x512.png">
+  <link rel="stylesheet" href="{{ site.url }}/styles/main.936b04d2.css"/>
+  <link rel="icon" href="{{ site.url }}/img/favicon.512x512.png">
   <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ site.url }}/feed.xml">
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -23,7 +23,7 @@
   ga('send', 'pageview');
 
 </script>
-  <script src="//use.edgefonts.net/source-sans-pro:n3,n4,n6,n7.js"></script>
+  <!-- <script src="//use.edgefonts.net/source-sans-pro:n3,n4,n6,n7.js"></script> -->
 </head>
 <body>
 
@@ -36,20 +36,20 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a href="/" class="navbar-brand">
-            <img alt="" src="/img/logo.svg">
+          <a href="{{ site.url }}/" class="navbar-brand">
+            <img alt="" src="{{ site.url }}/img/logo.svg">
             <span>ES</span>Lint</a>
         </div>
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="/docs/about">About</a></li>
-            <li><a href="/blog">Blog</a></li>
-            <li><a href="/demo">Demo</a></li>
-            <li><a href="/docs">Docs</a></li>
-            <li><a href="/docs/rules">Rules</a></li>
-            <li><a href="/docs/developer-guide">Developer Guide</a></li>
-            <li><a href="/docs/command-line-interface">Command Line</a></li>
-            <!--<li><a href="/interactive.html">Demo</a></li>-->
+            <li><a href="{{ site.url }}/docs/about">关于</a></li>
+            <li><a href="http://eslint.org/blog">Blog</a></li>
+            <li><a href="{{ site.url }}/demo">Demo</a></li>
+            <li><a href="{{ site.url }}/docs">文档</a></li>
+            <li><a href="{{ site.url }}/docs/rules">规则</a></li>
+            <li><a href="{{ site.url }}/docs/developer-guide">开发指南</a></li>
+            <li><a href="{{ site.url }}/docs/command-line-interface">命令行</a></li>
+            <!--<li><a href="{{ site.url }}/interactive.html">Demo</a></li>-->
           </ul>
         </div>
       </div><!-- /.container -->

@@ -1,6 +1,6 @@
 name: "ESLint"
 description: "模式化的 JavaScript 识别与汇报工具。"
-url: http://jinjiang.github.io/eslint.github.io/
+url: /eslint.github.io
 markdown: redcarpet
 redcarpet:
     extensions: [with_toc_data]
